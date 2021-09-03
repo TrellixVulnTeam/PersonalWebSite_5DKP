@@ -1,0 +1,12 @@
+#main_content {
+    text-align: center;
+}
+
+#photo {
+    position: relative;
+    bottom: 110px;
+}
+
+#photoContainer {
+    height: 150px;
+}
