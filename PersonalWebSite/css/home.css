@@ -1,12 +1,9 @@
-#main_content {
-    text-align: center;
-}
-
 #photo {
-    position: relative;
-    bottom: 110px;
+  /*position: relative;
+  bottom: 110px;*/
+  border-radius: 50%;
+  border: 2px solid #3a3a3a;
+  width: 16em;
 }
 
-#photoContainer {
-    height: 150px;
-}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,77 @@
+$card-bg: red;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+:root {
+    /* Colors Palette */
+    --dark_blue: #233d4d;
+    --logo-color: rgb(4, 172, 172);
+}
+
+body {
+    background-image: url("../img/poetry.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;  
+    opacity: 0.5; 
+    z-index: -1;
+    background: url(../img/poetry.jpg);
+}
+
+#main_content {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.custom_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(218, 218, 218,0.8);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+
+/*
+
+@media (min-width: 1200px) {
+    .custom_card {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom_card {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom_card {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .custom_card {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .custom_card {
+        max-width: 1320px;
+    }
+}*/
