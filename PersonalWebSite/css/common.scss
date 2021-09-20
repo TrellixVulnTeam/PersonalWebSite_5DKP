@@ -1,4 +1,4 @@
-$card-bg: red;
+/*$card-bg: red;*/
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -42,36 +42,3 @@ body::before {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
-
-
-/*
-
-@media (min-width: 1200px) {
-    .custom_card {
-        max-width: 1140px;
-    }
-}
-
-@media (min-width: 992px) {
-    .custom_card {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 768px) {
-    .custom_card {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 576px) {
-    .custom_card {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .custom_card {
-        max-width: 1320px;
-    }
-}*/

@@ -1,0 +1,9 @@
+#custom_computer_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=computacion.css.map */

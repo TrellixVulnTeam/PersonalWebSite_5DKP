@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*$card-bg: red;*/
 /*!
  * Bootstrap v5.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -4406,7 +4407,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: red;
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4480,10 +4481,6 @@ textarea.form-control-lg {
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
-}
-.card-header-tabs .nav-link.active {
-  background-color: red;
-  border-bottom-color: red;
 }
 
 .card-header-pills {
@@ -11157,37 +11154,5 @@ body::before {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
-
-/*
-
-@media (min-width: 1200px) {
-    .custom_card {
-        max-width: 1140px;
-    }
-}
-
-@media (min-width: 992px) {
-    .custom_card {
-        max-width: 960px;
-    }
-}
-
-@media (min-width: 768px) {
-    .custom_card {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 576px) {
-    .custom_card {
-        max-width: 540px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .custom_card {
-        max-width: 1320px;
-    }
-}*/
 
 /*# sourceMappingURL=common.css.map */
