@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sebastian Alfaro Leon">
+    <title>Sitio Personal</title>
+    <link rel="stylesheet" media="screen" href="../css/common.css" />
+    <link rel="stylesheet" media="screen" href="../css/home.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fw-bolder">
+            <div class="container-fluid"  >
+                <a class="navbar-brand" href="home.shtml">
+                    <img src="../img/myName.png" alt="Sebastián Alfaro León">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" >
+                    <div class="navbar-nav">
+                        <a class="nav-link " href="home.shtml">Home</a>
+                        <a class="nav-link active" href="objetivos.shtml">Objetivos</a>
+                        <a class="nav-link " href="computacion.shtml">Computación</a>
+                        <a class="nav-link " href="pasatiempos.shtml">Pasatiempos</a>
+                        <a class="nav-link " href="acercaDeEsteSitio.shtml">Acerca de este sitio</a>
+                        <a class="nav-link " href="contactame.shtml">Contáctame</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main id="main_content">
+        <div class="container custom_card">
+            <div class="text-center">
+                <div class="card-header row">
+                    <h2>Mis objetivos</h2>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Graduarme de la Escuela de Computación e Informática</li>
+                        <li class="list-group-item">Conseguir un empleo que me proporcione tranquilidad económica y con un buen ambiente laboral.</li>
+                        <li class="list-group-item">LLevar una alimentación más saludable.</li>
+                        <li class="list-group-item">Hacer ejercicios más constantemente.</li>
+                        <li class="list-group-item">Escribir un libro.</li>
+                        <li class="list-group-item">Mejorar mi hábito de lectura.</li>
+                        <li class="list-group-item">Aprender más sobre diseño de aplicaciones web.</li>
+                        <li class="list-group-item">Conocer más lugares de Costa Rica.</li>
+                      </ul>
+              </div>
+        </div>
+
+        <img id="sunset_img" src="../img/dream.jpg" alt="dream">
+    </main>
+
+<!--#include virtual="footer.shtml" -->

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sebastian Alfaro Leon">
+    <title>Sitio Personal</title>
+    <link rel="stylesheet" media="screen" href="../css/common.css" />
+    <link rel="stylesheet" media="screen" href="../css/home.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fw-bolder">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.shtml">
+                    <img src="../img/myName.png" alt="Sebastián Alfaro León">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="home.shtml">Home</a>
+                        <a class="nav-link " href="objetivos.shtml">Objetivos</a>
+                        <a class="nav-link " href="computacion.shtml">Computación</a>
+                        <a class="nav-link " href="pasatiempos.shtml">Pasatiempos</a>
+                        <a class="nav-link " href="acercaDeEsteSitio.shtml">Acerca de este sitio</a>
+                        <a class="nav-link " href="contactame.shtml">Contáctame</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main_content">
+        <div class="container custom_card">
+            <div class="text-center">
+                <div class="card-header row">
+                    <div id="photoContainer justify-content-center col-4">
+                        <img id="photo" src="../img/myPhoto.jpg" alt="Mi fotografía">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h2>Bienvenido</h2>
+                    <p> Mi nombre es Sebastián Alfaro León.</p>
+                    <p> Tengo 23 años de edad.</p>
+                    <p> Soy estudiante de la Universidad de Costa Rica.</p>
+                    <p> Estoy cursando Ciencias de la computación e informática con énfasis en Ingeniería de software.</p>
+              </div>
+        </div>
+        <img id="sunset_img" src="../img/sunset.jpg" alt="book_nature">
+    </main>
+
+    <!--#include virtual="footer.shtml" -->
